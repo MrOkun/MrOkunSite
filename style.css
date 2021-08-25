@@ -1,0 +1,100 @@
+body {
+	background-image: url(img/bg1.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: black;
+	color:  rgb(240, 240, 240);
+	font-family: "Mont", Mont, Regular;
+}
+
+.title-unselectable {
+	color:  rgb(240, 240, 240);
+	font-family: "Mont", Mont, Regular;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+ 	-moz-user-select: none;      /* Firefox */
+ 	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently*/
+}
+
+.under-title-unselectable {
+	color:  rgb(200, 200, 200);
+	font-family: "Mont", Mont, Regular;
+
+	margin-top: -2%;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+ 	-moz-user-select: none;      /* Firefox */
+ 	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently*/
+}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.link-text {
+	color:	whitesmoke;
+	font-family: "Mont", Mont, Regular;
+
+	padding: 10px;
+
+	margin-top: -2%;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.main-about-text {
+	color:  rgb(210, 210, 210);
+	font-family: "Mont", Mont, Regular;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.about-text {
+	color:  rgb(210, 210, 210);
+	font-family: "Mont", Mont, Regular;
+
+	margin-top: -1.4%;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url("/fonts/Mont-Regular.woff") format("woff");
+}
