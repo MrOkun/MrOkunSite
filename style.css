@@ -1,10 +1,13 @@
 body {
-	background-image: url(img/bg1.png);
+	background-image: url(video/background.gif);
 	background-repeat: no-repeat;
 	background-position: top;
-	background-color: black;
+	background-size: 100%;1
+
 	color:  rgb(240, 240, 240);
+
 	font-family: 'montserratlight';
+
 }
 
 .title-unselectable {
