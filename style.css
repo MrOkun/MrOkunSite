@@ -10,6 +10,8 @@ body {
 .title-unselectable {
 	color:  rgb(255, 255, 255);
 
+	text-decoration: none;
+
 	-webkit-touch-callout: none; /* iOS Safari */
  	-webkit-user-select: none;   /* Chrome/Safari/Opera */
  	-khtml-user-select: none;    /* Konqueror */
@@ -59,6 +61,24 @@ body {
                                   not supported by any browser */
 }
 
+.link-text:hover {
+	color:	rgb(150, 150, 255);
+
+	padding: 10px;
+
+	margin-top: -2%;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
 .main-about-text {
 	color:  rgb(255, 255, 255);
 
@@ -88,6 +108,7 @@ body {
   	user-select: none;           /* Non-prefixed version, currently
                                   not supported by any browser */
 }
+
 @font-face {
     font-family: 'montserratlight';
     src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
