@@ -21,6 +21,10 @@ function getPlatform() {
     return 'Неизвестная платформа!' + platform;
 }
 
-if(getPlatform() != "Windows" && getPlatform() != "Linux" && getPlatform() != "Macintosh" && getPlatform() != "Tablet OS"){
+let Platform = getPlatform();
+
+if(Platform != "Windows" && Platform != "Linux" && Platform != "Macintosh" && Platform != "Tablet OS"){
     window.open('/index-mobile.html');
 }
+
+console.log(Platform);
