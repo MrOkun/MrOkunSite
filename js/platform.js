@@ -24,7 +24,7 @@ function getPlatform() {
 let Platform = getPlatform();
 
 if(Platform != "Windows" && Platform != "Linux" && Platform != "Macintosh" && Platform != "Tablet OS"){
-    window.open('MrOkunSite/index-mobile.html');
+    window.open('/MrOkunSite/index-mobile.html');
 }
 
 console.log(Platform);
