@@ -1,5 +1,5 @@
 body {
-	background-image: url(video/background.gif);
+	background-image: url(video/hack.gif);
 	background-color: black;
 	background-repeat: repeat-y;
 	background-position: top;
@@ -12,6 +12,7 @@ body {
 }
 
 .title-unselectable {
+	font-size: 210%;
 	color:  rgb(255, 255, 255);
 
 	text-decoration: none;
@@ -25,8 +26,9 @@ body {
 }
 
 .title-unselectable:hover {
-	color:  rgb(255, 255, 255);
-	text-shadow: 0px 0px 18px rgba(0, 255, 0, 1);
+	font-size: 210%;
+
+	color: #fff9e2;
 
 	text-decoration: none;
 
@@ -39,9 +41,11 @@ body {
 }
 
 .under-title-unselectable {
-	color:  rgb(160, 160, 160);
+	font-size: 180%;
 
 	margin-top: -1.4%;
+
+	color:  #FF45BB;
 
 	-webkit-touch-callout: none; /* iOS Safari */
  	-webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -52,6 +56,8 @@ body {
 }
 
 .unselectable {
+	font-size: 210%;
+
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
@@ -62,7 +68,9 @@ body {
 }
 
 .link-text {
-	color:	rgb(230, 255, 230);
+	font-size: 150%;
+
+	color:	rgb(255, 255, 255);
 
 	padding: 10px;
 
@@ -80,9 +88,10 @@ body {
 }
 
 .link-text:hover {
-	color: rgb(0, 112, 64);
+	font-size: 150%;
 
-	text-shadow: 0px 0px 18px rgba(0, 255, 0, 1);
+	color: rgb(255, 250, 202);
+
 
 	padding: 10px;
 
@@ -100,6 +109,8 @@ body {
 }
 
 .main-about-text {
+	font-size: 200%;
+
 	color:  rgb(255, 255, 255);
 
 	text-decoration: none;
@@ -114,6 +125,8 @@ body {
 }
 
 .about-text {
+	font-size: 170%;
+
 	color:  rgb(160, 160, 160);
 
 	margin-top: -1%;
@@ -127,6 +140,19 @@ body {
   	-ms-user-select: none;       /* Internet Explorer/Edge */
   	user-select: none;           /* Non-prefixed version, currently
                                   not supported by any browser */
+}
+
+.clock-div {
+	text-align: center;
+
+	color:  #fffee9;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+ 	-moz-user-select: none;      /* Firefox */
+ 	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently*/
 }
 
 @font-face {
