@@ -155,6 +155,28 @@ body {
   	user-select: none;           /* Non-prefixed version, currently*/
 }
 
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
+
+.ErrorText {
+	font-size: 550%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+
+
 @font-face {
     font-family: 'montserratlight';
     src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
