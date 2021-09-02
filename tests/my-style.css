@@ -1,0 +1,35 @@
+body {
+	margin: 0px;
+	font-family: 'montserratlight';
+    font-size: 250%;
+}
+
+.title_okun {
+    font-size: 150%;
+    font-family: 'montserratlight';
+}
+
+.underline {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.underline:hover {
+    background-size: 100% 2px;
+}
+
+.my-title {
+    font-family: 'montserratlight';
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
