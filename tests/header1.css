@@ -38,16 +38,19 @@
       transform: translateY(0); } }
 
 .nav__item a {
+  color: #e3d9d0;
 
     text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
+    background-image: linear-gradient(#cf422a, #cf422a);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
 
   display: block;
-  padding: 1.5rem 1rem; }
+  padding: 1.5rem 1rem;
+}
+
 
 .nav__item a:hover {
   background-size: 100% 2px;
