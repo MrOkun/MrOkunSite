@@ -1,0 +1,76 @@
+body {
+    color: #e3d9d0;
+    background-image: url("/img/hackBG.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+
+    background-color: rgb(0, 0, 0);
+	margin: 0px;
+	font-family: 'montserratlight';
+    font-size: 250%;
+}
+
+.title_okun {
+    font-size: 150%;
+    font-family: 'montserratlight';
+}
+
+.underline {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.underline:hover {
+    background-size: 100% 2px;
+}
+
+.my-title {
+    font-family: 'montserratlight';
+}
+
+.link-text-git {
+    color: #e3d9d0;
+    margin: 2%;
+}
+
+.link-text-you {
+    color: #e3d9d0;
+    margin: 2%;
+}
+
+.link-text-tiktok {
+    color: #e3d9d0;
+    margin: 2%;
+}
+
+.link-text-git:hover {
+    color: #fff0ff;
+}
+
+.link-text-you:hover {
+    color: #fff0ff;
+}
+
+.link-text-tiktok:hover {
+    color: #fff0ff;
+}
+
+.links {
+    color: white;
+
+    text-align: center;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
