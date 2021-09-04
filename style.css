@@ -1,1 +1,187 @@
-@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";.wrapper{max-width:1140px;padding-left:1rem;padding-right:1rem;margin-left:auto;margin-right:auto}*,*:before,*:after{box-sizing:border-box}a{text-decoration:none;color:#222}html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{font-family:roboto,sans-serif}.sr-only{position:absolute;clip:rect(1px,1px,1px,1px);padding:0;border:0;height:1px;width:1px;overflow:hidden}.button{-webkit-appearance:none;-moz-appearance:none;appearance:none;color:#fff;background-color:#2fa0f6;min-width:120px;padding:.5rem 1rem;border-radius:5px;text-align:center}.button svg{display:inline-block;vertical-align:middle;width:24px;height:24px;fill:#fff}.button span{display:none}@media(min-width:600px){.button span{display:initial}}.button--icon{min-width:initial;padding:.5rem}
+body {
+	background-image: url(video/hack.gif);
+	background-color: black;
+	background-repeat: repeat-y;
+	background-position: top;
+	background-size: 100%;
+
+	color:  rgb(240, 240, 240);
+
+	font-family: 'montserratlight';
+
+}
+
+.title-unselectable {
+	font-size: 210%;
+	color:  rgb(255, 255, 255);
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+ 	-moz-user-select: none;      /* Firefox */
+ 	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently*/
+}
+
+.title-unselectable:hover {
+	font-size: 210%;
+
+	color: #fff9e2;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+ 	-moz-user-select: none;      /* Firefox */
+ 	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none; 
+}
+
+.under-title-unselectable {
+	font-size: 180%;
+
+	margin-top: -1.4%;
+
+	color:  #FF45BB;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+ 	-moz-user-select: none;      /* Firefox */
+ 	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently*/
+}
+
+.unselectable {
+	font-size: 210%;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.link-text {
+	font-size: 150%;
+
+	color:	rgb(255, 255, 255);
+
+	padding: 10px;
+
+	margin-top: -2%;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.link-text:hover {
+	font-size: 150%;
+
+	color: rgb(255, 250, 202);
+
+
+	padding: 10px;
+
+	margin-top: -2%;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.main-about-text {
+	font-size: 200%;
+
+	color:  rgb(255, 255, 255);
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.about-text {
+	font-size: 170%;
+
+	color:  rgb(160, 160, 160);
+
+	margin-top: -1%;
+
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.clock-div {
+	text-align: center;
+
+	color:  #fffee9;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+ 	-moz-user-select: none;      /* Firefox */
+ 	-ms-user-select: none;       /* Internet Explorer/Edge */
+  	user-select: none;           /* Non-prefixed version, currently*/
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
+
+.ErrorText {
+	font-size: 550%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
