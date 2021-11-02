@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+html {
+  background: black url("img/back_n_w.jpg") no-repeat center center;
+  min-height: 100%;
+  background-size: cover;
+}
+
+body{
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 57.33px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+small{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 13.33px;
+    letter-spacing: 0.15em;
+
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.12));
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.33px;
+  letter-spacing: 0.15em;
+
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.46));
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.64));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-decoration: none;
+  margin: 0px;
+  padding: 16px 32px;
+}
+
+.button {
+  margin-top: 20px;
+
+  background: red;
+  display: inline-block;
+  padding: 16px 0px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.54);
+}
+
+
+img{
+  pointer-events: none;
+}
+
+.center1 {
+  margin-top: 22%;
+}
+
+.icons {
+  margin-bottom: 56px;
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.icons a {
+  margin: 0 8px;
+  padding: 22px 2px;
+}
+
+.icons a img {
+  opacity: 0.68;
+}
